@@ -20,10 +20,10 @@ function App() {
   return (
     <BrowserRouter>
       
-    {/* {loading ?
+    {loading ?
       <div className="preloaderr">
         <ScaleLoader color={'#f87765'} loading={loading} height={100} margin={10} />
-      </div> : */}
+      </div> :
 
       <>
         <NNavBar/>
@@ -31,7 +31,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </>
-{/* } */}
+}
   </BrowserRouter>
   );
 }
